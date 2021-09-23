@@ -1,0 +1,62 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/sunset2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.application {
+  border: 2px #000 solid;
+  border-radius: 25px;
+  background-image: url(../img/sunnybg.jpg);
+  align-self: center;
+}
+.weather-card {
+  display: flex;
+  height: 150px;
+  width: 500px;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.weather-card__item {
+  width: 100%;
+  border-right: 1px #9ec3f1 solid;
+}
+.weather-card__item:last-child {
+  border-right: none;
+}
+.item__icon {
+  width: 145px;
+}
+.item__degrees {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 155px;
+  font-size: 64px;
+}
+.degrees {
+  display: inline-block;
+}
+.item__geo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.geo__city {
+  font-size: 30px;
+}
+.geo__dayofweek {
+  font-size: 18px;
+  color: #192b44;
+}
+.geo__date {
+  font-size: 18px;
+  color: #192b44;
+}
